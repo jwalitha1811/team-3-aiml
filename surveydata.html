@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Geethanjali Institute Project</title>
+    <style>
+        .header {
+            background-color: white;
+         color: rgb(153, 0, 255);
+    padding: 10px;
+    text-align: left;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.logo {
+    height: 200px;
+}
+.header-text  {
+    color: rgb(55, 0, 255);
+    max-width: 800px;
+}
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color:violet;
+      color: black;
+    }
+
+    .header {
+      background: white;
+      color: red;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .header img {
+      height: 100px;
+    }
+
+    .sub-header {
+      color: black;
+      font-size: 14px;
+    }
+
+    .navbar {
+      background-color: #001f66;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .navbar a {
+      color: white;
+      display: inline-block;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      background-color: rgb(255, 0, 179);
+      color: black;
+    }
+    .main-section {
+      background: url('gist1.jpg') no-repeat center center fixed;
+      background-size: cover;
+      height: 85vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid #999;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+        .highlight {
+            background-color: #ffff99;
+        }
+        .highlight{
+            background-color: yellow;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+        <img src="gist.jpg"  alt="logo" class="logo" style="height: 200px;">
+        <div>
+        <h1>GEETHANJALI INSTITUTE OF SCIENCE AND TECHNOLOGY</h1>
+        <div class="header-text">
+            A unit of USHODAYA EDUCATIONAL SOCIETY<br>
+            Approved by AICTE, New Delhi & Permanently Affiliated to JNTUA, Ananthapuram<br>
+            NAAC 'A' Grade Accredited Institution,An ISO 9001:2015 certified Institution<br>
+            Recognized under Sec. 2(f) & 12(B) of UGC Act, 1956<br>
+            3rd Mile, Bombay Highway, Gangavaram(V), Kovur(M), SPSR Nellore(Dt) 524137
+        
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <a href="index.html">HOME</a>
+        <a href="abstact.html">ABSTRACT</a>
+        <a href="introduction.html">INTRODUCTION</a>
+        <a href="questionaire.html">QUESTIONNAIRE</a>
+        <a href="surveydata.html">SURVEY DATA</a>
+        <a href="conclusion.html">CONCLUSION</a>
+        <a href="activitylog.html">ACTIVITY LOG</a>
+         <a href="surveypic.html">SURVEY PICTURES</a>
+        <a href="members.html">MEMBERS</a>
+    </div>
+    <h3 style="text-align: center; color: darkred;">Survey on Peoples perception on municipal corporation performance</h3>
+
+    <table>
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile no</th>
+                <th>Aadhaar no</th>
+                <th>PEOPLE FEEDBACK ON MUNICIPAL CORPORATION(SATISIFIED OR NOT)</th>
+                <th>IF NOT REASON TO IT</th>
+            </tr>
+        </thead>
+        <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const rows = document.querySelectorAll("table tr");
+
+    rows.forEach((row) => {
+      row.addEventListener("click", () => {
+        // Remove highlight from all rows
+        rows.forEach(r => r.classList.remove("highlight"));
+        // Add highlight to clicked row
+        row.classList.add("highlight");
+      });
+    });
+  });
+</script>
+        <tbody >
+            <tr>
+                <tr><td>1</td><td>A. Shamala</td><td>Ranganayakulapeta, Nellore</td><td>9290067263</td><td>4404 7365 4462</td><td>NO</td><td>Improper cleaning execution</td></tr>
+    <tr><td>2</td><td>B. Balu</td><td>Ranganayakulapeta, Nellore</td><td>7093873879</td><td>2183 5568 9500</td><td>YES</td><td>-</td></tr>
+    <tr><td>3</td><td>B. Subramanyam</td><td>Ranganayakulapeta, Nellore</td><td>9014488029</td><td>9984 9071 1352</td><td>NO</td><td>Poor Drainage management</td></tr>
+    <tr><td>4</td><td>K. Kalpana</td><td>Ranganayakulapeta, Nellore</td><td>9248955616</td><td>6169 7068 8194</td><td>YES</td><td>-</td></tr>
+    <tr><td>5</td><td>D.V. Rama Rao</td><td>Ranganayakulapeta, Nellore</td><td>8897975253</td><td>7290 2976 3617</td><td>YES</td><td>-</td></tr>
+    <tr><td>6</td><td>S. Prasanna</td><td>Ranganayakulapeta, Nellore</td><td>9705700501</td><td>9821 5883 2590</td><td>YES</td><td>Poor water distribution</td></tr>
+    <tr><td>7</td><td>D. Ajitha</td><td>Ranganayakulapeta, Nellore</td><td>8125434387</td><td>9917 4037 6591</td><td>YES</td><td>-</td></tr>
+    <tr><td>8</td><td>M. Naga Ratnam</td><td>Ranganayakulapeta, Nellore</td><td>9866823618</td><td>7498 6576 1675</td><td>YES</td><td>-</td></tr>
+    <tr><td>9</td><td>Y. Manjula</td><td>Ranganayakulapeta, Nellore</td><td>9160071914</td><td>4974 3557 2649</td><td>YES</td><td>-</td></tr>
+    <tr><td>10</td><td>E. Dhanamma</td><td>Ranganayakulapeta, Nellore</td><td>7330478541</td><td>4404 7365 1659</td><td>YES</td><td>-</td></tr>
+    <tr><td>11</td><td>S. Supriya</td><td>Ranganayakulapeta, Nellore</td><td>9494753200</td><td>9032 5534 6387</td><td>YES</td><td>-</td></tr>
+    <tr><td>12</td><td>CH. Vijayamma</td><td>Ranganayakulapeta, Nellore</td><td>8125330597</td><td>6514 2213 9570</td><td>NO</td><td>Uneven road surface</td></tr>
+    <tr><td>13</td><td>K. Lalitha</td><td>Ranganayakulapeta, Nellore</td><td>8885370054</td><td>3013 6183 8200</td><td>YES</td><td>-</td></tr>
+    <tr><td>14</td><td>K. Eswaraiah</td><td>Ranganayakulapeta, Nellore</td><td>9177270503</td><td>9012 5562 5131</td><td>YES</td><td>-</td></tr>
+    <tr><td>15</td><td>K. Sakunthala</td><td>Ranganayakulapeta, Nellore</td><td>9177270503</td><td>9012 5562 5131</td><td>YES</td><td>-</td></tr>
+    <tr><td>16</td><td>CH. Sreeramulu</td><td>Ranganayakulapeta, Nellore</td><td>9550289969</td><td>3963 6348 3849</td><td>NO</td><td>Poor water distribution</td></tr>
+    <tr><td>17</td><td>M. Vijaya</td><td>Ranganayakulapeta, Nellore</td><td>7674877550</td><td>2933 3451 3552</td><td>YES</td><td>-</td></tr>
+    <tr><td>18</td><td>Y. Ramanamma</td><td>Ranganayakulapeta, Nellore</td><td>8367019135</td><td>4257 5469 1402</td><td>YES</td><td>-</td></tr>
+    <tr><td>19</td><td>Y. Swapna</td><td>Ranganayakulapeta, Nellore</td><td>8125330597</td><td>6121 3853 1243</td><td>NO</td><td>Irregular waste collection</td></tr>
+    <tr><td>20</td><td>V. Kotamma</td><td>Ranganayakulapeta, Nellore</td><td>6304183782</td><td>4821 1746 1710</td><td>NO</td><td>Blocked drainage flow</td></tr>
+  <tr><td>21</td><td>Y. Sreenivasulu</td><td>Ranganayakulapeta, Nellore</td><td>6304817348</td><td>4821 4746 1710</td><td>NO</td><td>Blocked Drainage flow</td></tr>
+  <tr><td>22</td><td>S. Malathi</td><td>Ranganayakulapeta, Nellore</td><td>9505588752</td><td>5993 6142 3006</td><td>YES</td><td>-</td></tr>
+  <tr><td>23</td><td>K. Ramanamma</td><td>Ranganayakulapeta, Nellore</td><td>9000436408</td><td>4304 8110 0938</td><td>YES</td><td>-</td></tr>
+  <tr><td>24</td><td>V. Antony</td><td>Ranganayakulapeta, Nellore</td><td>8919491865</td><td>7311 4630 2762</td><td>YES</td><td>-</td></tr>
+  <tr><td>25</td><td>V. Kona</td><td>Ranganayakulapeta, Nellore</td><td>8897969277</td><td>4413 8698 9569</td><td>YES</td><td>-</td></tr>
+  <tr><td>26</td><td>R. Kondamma</td><td>Ranganayakulapeta, Nellore</td><td>9177720503</td><td>5278 5617 1445</td><td>YES</td><td>-</td></tr>
+  <tr><td>27</td><td>K. Sree Lakshmi</td><td>Ranganayakulapeta, Nellore</td><td>9058066911</td><td>5628 5607 1145</td><td>YES</td><td>-</td></tr>
+  <tr><td>28</td><td>A. Ramesh</td><td>Ranganayakulapeta, Nellore</td><td>8897531106</td><td>2188 8324 5701</td><td>YES</td><td>-</td></tr>
+  <tr><td>29</td><td>V. Varada Raja</td><td>Ranganayakulapeta, Nellore</td><td>9593657539</td><td>9332 3105 6524</td><td>YES</td><td>-</td></tr>
+  <tr><td>30</td><td>E. Yedukondalu</td><td>Ranganayakulapeta, Nellore</td><td>6302245255</td><td>5825 5464 4595</td><td>YES</td><td>Impure Water Quality</td></tr>
+  <tr><td>31</td><td>A. Rajesh</td><td>Ranganayakulapeta, Nellore</td><td>8630838431</td><td>6086 5046 7195</td><td>NO</td><td>-</td></tr>
+  <tr><td>32</td><td>P. Padmavathi</td><td>Ranganayakulapeta, Nellore</td><td>6302721489</td><td>8157 6700 7787</td><td>YES</td><td>-</td></tr>
+  <tr><td>33</td><td>S. Hari Prasad</td><td>Ranganayakulapeta, Nellore</td><td>9440679146</td><td>9402 5018 1261</td><td>YES</td><td>Uneven Road Surface</td></tr>
+  <tr><td>34</td><td>P. Paddamma</td><td>Ranganayakulapeta, Nellore</td><td>9490196614</td><td>9402 5019 3641</td><td>NO</td><td>Poor Drainage Management</td></tr>
+  <tr><td>35</td><td>S. Purnima</td><td>Ranganayakulapeta, Nellore</td><td>9676399341</td><td>6896 0649 1485</td><td>NO</td><td>Irregular Waste Collection</td></tr>
+  <tr><td>36</td><td>B. Usharaja</td><td>Ranganayakulapeta, Nellore</td><td>9849659669</td><td>8619 5501 8279</td><td>NO</td><td>-</td></tr>
+  <tr><td>37</td><td>B. Lattha</td><td>Ranganayakulapeta, Nellore</td><td>9002196868</td><td>9692 2374 7549</td><td>YES</td><td>-</td></tr>
+  <tr><td>38</td><td>B. Adhi</td><td>Ranganayakulapeta, Nellore</td><td>9316936141</td><td>5031 5122 1836</td><td>YES</td><td>Uneven Road Surface</td></tr>
+  <tr><td>39</td><td>B. Hima Bindu</td><td>Ranganayakulapeta, Nellore</td><td>8008196497</td><td>4809 0973 4328</td><td>NO</td><td>Uneven Road Surface</td></tr>
+  <tr><td>40</td><td>N. Suman</td><td>Ranganayakulapeta, Nellore</td><td>8317506476</td><td>7123 9353 0158</td><td>NO</td><td>Uneven Road Surface</td></tr>
+  <tr><td>41</td><td>M. Venkata Krishna Murthy</td><td>Ranganayakulapeta, Nellore</td><td>9951823153</td><td>3707 8533 0441</td><td>NO</td><td>Uneven Road Surface</td></tr>
+  <tr><td>42</td><td>V. Naga Raju</td><td>Ranganayakulapeta, Nellore</td><td>8187859789</td><td>5980 8997 0320</td><td>NO</td><td>Improper Cleaning Execution</td></tr>
+  <tr><td>43</td><td>K. Kishore Babu</td><td>Ranganayakulapeta, Nellore</td><td>8868305208</td><td>8321 3389 4889</td><td>YES</td><td>Impure Water Quality</td></tr>
+  <tr><td>44</td><td>K. Nagendra Babu</td><td>Ranganayakulapeta, Nellore</td><td>6304529922</td><td>2333 2308 6069</td><td>NO</td><td>-</td></tr>
+  <tr><td>45</td><td>K. Prasad</td><td>Ranganayakulapeta, Nellore</td><td>9490485557</td><td>5978 5453 0217</td><td>NO</td><td>Irregular Waste Collection</td></tr>
+  <tr><td>46</td><td>D. Swathi</td><td>Ranganayakulapeta, Nellore</td><td>9177463265</td><td>9966 3345 6567</td><td>YES</td><td>-</td></tr>
+  <tr><td>47</td><td>T. Niranjan</td><td>Ranganayakulapeta, Nellore</td><td>8019200398</td><td>7924 7534 2174</td><td>YES</td><td>-</td></tr>
+  <tr><td>48</td><td>G. Karthik Reddy</td><td>Ranganayakulapeta, Nellore</td><td>7386820491</td><td>7786 2802 2762</td><td>YES</td><td>-</td></tr>
+  <tr><td>49</td><td>T. Supriya</td><td>Ranganayakulapeta, Nellore</td><td>8019106479</td><td>6577 4866 9324</td><td>YES</td><td>-</td></tr>
+  <tr><td>50</td><td>K. Giri Kumar</td><td>Ranganayakulapeta, Nellore</td><td>9618307294</td><td>5776 8274 5466</td><td>NO</td><td>Uneven Road Surface</td></tr>
+</table>
+</table>
+
+<div class="footer">
+    &copy; 2025 Ranganayakulapeta Municipal Corporation. All rights reserved.
+</div>
+
+</body>
+</html>
